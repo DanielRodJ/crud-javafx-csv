@@ -1,0 +1,14 @@
+ID;Printer Name;Printer Ip;Printer Netmask;Location
+1;ZEBC16CL;10.16.230.9;255.255.0.0;Impresora master de inyectora IM-M024
+2;ZEBC16GB;10.10.10.10;255.255.255.255;Sin ubicación exacta.
+3;ZEBC16EC;10.10.10.10;255.255.0.0;Sin ubicación exacta.
+4;ZEBC16AP;10.10.10.10;255.255.0.0;Sin ubicación especifíca.
+5;ZEBC16FB;10.10.10.10;255.255.0.0;Sin ubicacion especifica.
+6;ZEBC16FX;10.10.10.10;255.255.0.0;Sin ubicacion especifica.
+7;ZEBC16DM;10.10.10.10;255.255.0.0;Sin ubicacion especifica.
+8;ZEBC16EX;10.10.10.10;255.255.0.0;Sin ubicacion especifica.
+9;ZEBC16AH;10.10.10.10;255.255.0.0;Sin ubicacion especifica.
+10;ZEBC16FC;10.10.10.10;255.255.0.0;Sin ubicacion especifica.
+11;ZEBC16CU;10.10.10.10;255.255.0.0;Sin ubicacion especifica.
+12;ZEBC16FO;10.10.10.10;255.255.0.0;Sin ubicacion especifica.
+13;ZEBC16CM;10.10.10.10;255.255.0.0;Sin ubicacion especifica.

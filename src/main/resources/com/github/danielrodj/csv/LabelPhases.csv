@@ -1,0 +1,4 @@
+ID;Acronym;Name;Description
+1;SHP;Shipping;Items are ready for shipping or have been shipped to their final destination.
+2;UNP;Unpackaged;Items are currently unpackaged and pending final packaging.
+3;WIP;Work In Progress;Items are in the process of production and not yet completed.

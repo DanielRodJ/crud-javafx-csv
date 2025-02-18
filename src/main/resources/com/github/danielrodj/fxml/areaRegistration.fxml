@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<BorderPane xmlns:fx="http://javafx.com/fxml" prefHeight="600" prefWidth="800" >
+    <!-- Panel izquierdo -->
+    <left>
+        <VBox spacing="10" alignment="CENTER">
+            <Label text="All Categories" style="-fx-font-size: 16px; -fx-font-weight: bold;"/>
+            <TableView fx:id="tableExistingCategories" prefWidth="300" prefHeight="400">
+                <columns>
+                    <TableColumn text="ID" prefWidth="100"/>
+                    <TableColumn text="Name" prefWidth="200"/>
+                </columns>
+            </TableView>
+            <Label text="Selected Category: {Category ID}" fx:id="lblSelectedCategory"/>
+            <HBox spacing="10">
+                <Button text="Modify" onAction="#handleModify"/>
+                <Button text="Delete" onAction="#handleDelete"/>
+            </HBox>
+        </VBox>
+    </left>
+
+    <!-- Panel derecho -->
+    <center>
+        <VBox spacing="10" alignment="CENTER" style="-fx-padding: 20;">
+            <Label text="Categories Management" style="-fx-font-size: 16px; -fx-font-weight: bold;"/>
+            <GridPane hgap="10" vgap="10">
+                <Label text="Category ID:" GridPane.rowIndex="0" GridPane.columnIndex="0"/>
+                <TextField fx:id="txtCategoryID" GridPane.rowIndex="0" GridPane.columnIndex="1"/>
+
+                <Label text="Category Name:" GridPane.rowIndex="1" GridPane.columnIndex="0"/>
+                <TextField fx:id="txtCategoryName" GridPane.rowIndex="1" GridPane.columnIndex="1"/>
+
+                <Label text="Description about the category:" GridPane.rowIndex="2" GridPane.columnIndex="0"/>
+                <TextArea fx:id="txtCategoryDescription" prefRowCount="3" prefColumnCount="20" GridPane.rowIndex="2" GridPane.columnIndex="1"/>
+            </GridPane>
+            <HBox spacing="10" alignment="CENTER">
+                <Button text="Cancel" onAction="#handleCancel"/>
+                <Button text="Update" onAction="#handleUpdate"/>
+                <Button text="Add" onAction="#handleAdd"/>
+            </HBox>
+        </VBox>
+    </center>
+</BorderPane>

@@ -1,0 +1,12 @@
+# Ignorar directorios de compilación
+/target/
+/bin/
+
+# Ignorar archivos .class
+*.class
+
+# Ignorar archivos generados por el entorno de desarrollo
+*.log
+*.settings/
+*.project
+*.classpath

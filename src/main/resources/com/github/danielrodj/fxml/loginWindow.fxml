@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="340.0" prefWidth="340.0" styleClass="background" stylesheets="@../css/login-window.css" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.github.danielrodj.controllers.LoginController">
+
+   <children>
+      <VBox layoutX="150.0" layoutY="69.0" spacing="16.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <StackPane styleClass="header">
+               <children>
+                  <Label maxWidth="1.7976931348623157E308" styleClass="title" text="Welcome">
+                     <font>
+                        <Font name="Arial Rounded MT Bold" size="31.0" />
+                     </font>
+                     <StackPane.margin>
+                        <Insets />
+                     </StackPane.margin>
+                  </Label>
+               </children>
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin>
+               <padding>
+                  <Insets bottom="18.0" top="10.0" />
+               </padding>
+            </StackPane>
+            <VBox spacing="10.0">
+               <children>
+                  <HBox spacing="10.0">
+                     <children>
+                        <TextField fx:id="txtFUsername" promptText="Username" HBox.hgrow="SOMETIMES">
+                           <HBox.margin>
+                              <Insets />
+                           </HBox.margin>
+                           <padding>
+                              <Insets bottom="4.0" left="10.0" top="4.0" />
+                           </padding></TextField>
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER_LEFT" spacing="10.0">
+                     <children>
+                        <PasswordField fx:id="txtFPassword" promptText="Password" HBox.hgrow="SOMETIMES">
+                           <padding>
+                              <Insets bottom="4.0" left="10.0" top="4.0" />
+                           </padding></PasswordField>
+                     </children>
+                  </HBox>
+               </children>
+               <padding>
+                  <Insets left="20.0" right="40.0" />
+               </padding>
+               <VBox.margin>
+                  <Insets top="20.0" />
+               </VBox.margin>
+            </VBox>
+            <HBox alignment="CENTER_RIGHT" spacing="10.0">
+               <padding>
+                  <Insets left="20.0" right="20.0" />
+               </padding>
+               <children>
+                  <Label fx:id="lnkForgotPassword" styleClass="link" text="Forgot  Password?">
+                     <font>
+                        <Font name="Segoe UI Semilight" size="12.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <StackPane>
+               <padding>
+                  <Insets left="20.0" right="40.0" />
+               </padding>
+               <VBox.margin>
+                  <Insets top="12.0" />
+               </VBox.margin>
+               <children>
+                  <Button fx:id="btnLogin" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#handleLoginAction" text="Login">
+                     <font>
+                        <Font name="Microsoft New Tai Lue" size="12.0" />
+                     </font>
+                  </Button>
+               </children>
+            </StackPane>
+            <HBox alignment="CENTER_RIGHT" spacing="10.0">
+               <padding>
+                  <Insets left="20.0" right="20.0" />
+               </padding>
+               <children>
+                  <Label fx:id="lnkNewAccount" styleClass="link" text="I don't have an account" underline="true">
+                     <font>
+                        <Font name="Segoe UI Semilight" size="12.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

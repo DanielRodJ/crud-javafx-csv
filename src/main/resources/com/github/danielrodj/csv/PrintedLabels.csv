@@ -1,0 +1,6 @@
+LabelId;Reasons;RequestDate;RequestTime;ResponseDate;ResponseTime;RequesterId;CategoryId;PrinterId;OriginalEditorId;LastEditorId;PartNumber;LabelType;Quantity;StdPack
+1;Motivo1;2025-01-01;08:00;2025-01-02;09:00;1;1;1;1;2;ABC123;Shipping;100;10
+2;Motivo2;2025-02-17;null;2025-02-17;null;2;2;2;2;1;DEF456;Shipping;100;20
+5;Motivo5;2025-02-17;null;2025-02-17;null;4;1;1;1;1;MNO345;Work In Progress;100;30
+6;Motivo6 Editado;2025-02-17;null;2025-02-17;null;1;2;2;2;1;PQR678;Shipping;100;100
+7;Ejemplo Insertado mediante UI;2025-02-17;null;2025-02-17;null;1;1;2;1;1;EGS123;Shipping;20;20

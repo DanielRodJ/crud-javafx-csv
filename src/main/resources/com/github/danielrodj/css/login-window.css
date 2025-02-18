@@ -1,0 +1,47 @@
+.background {
+    -fx-background-color: linear-gradient(to top, #2E5077, #325e8f); /* Fondo de degradado */
+}
+
+.header {
+    -fx-background-color: #4DA1A9;
+    -fx-border-width: 2px; /* Ancho del borde */
+    -fx-background-radius: 0 0 6px 6px;
+}
+
+.title{
+    -fx-text-fill: #2E5077; /* Color del texto */
+    -fx-alignment: CENTER; /* Centra el texto horizontalmente y verticalmente */
+    -fx-text-alignment: CENTER;
+}
+
+.text-field {
+    -fx-background-color: transparent; /* Fondo transparente */
+    -fx-border-color: #2E5077; /* Color del borde */
+    -fx-border-width: 1px; /* Ancho del borde */
+    -fx-border-radius: 4px; /* Bordes redondeados */
+    -fx-text-fill: white; /* Color del texto */
+}
+
+.text-field:hover{
+    -fx-border-color: #FFFFFF; /* Color del borde */
+}
+
+.text-field:focused {
+    -fx-border-color: #4DA1A9; /* Color del borde al enfocar */
+}
+
+.link{
+    -fx-text-fill: #4DA1A9;
+    -fx-cursor: hand;
+}
+
+#btnLogin {
+    -fx-background-color: #4DA1A9;
+    -fx-text-fill: #FFFFFF;
+}
+
+#btnLogin:hover {
+    
+    -fx-cursor: hand;
+}
+

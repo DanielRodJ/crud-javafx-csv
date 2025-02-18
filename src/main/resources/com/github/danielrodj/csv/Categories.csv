@@ -1,0 +1,16 @@
+ID;Category Name;Description
+1;Etiqueta Manchada;La información de la etiqueta no es visible debido a la existencia de manchas de tinta.
+2;Etiqueta Rayada;La información de la etiqueta no está integra debido a rayas superficiales encima de los datos.
+3;Etiqueta Borrosa;La información de la etiqueta es muy difusa y no visible.
+4;Etiqueta Incompleta;La información de la etiqueta se generó desde un punto no adecuado y provoco la perdida de datos.
+5;Etiqueta Atorada/Rota;La etiqueta se atoró durante su generación y provocó fisuras en el papel.
+6;Etiqueta Atorada/Arrugada;La etiqueta se atoró durante su generación y provocó peridida de legibilidad en la información.
+7;Etiqueta NO Generada por Red;La etiqueta no fue generada debido a la falta de red en Andon.
+8;Etiqueta NO Generada por Cola;La etiqueta no fue generada debido a un cuello de botella existente en la impresora utilizada originalmente.
+9;Etiqueta NO Generada por Andon;La etiqueta no fue generada debido a la falta de disponibilidad del sistema Andon.
+10;Etiqueta NO Generada por Destino Equivocado;La etiqueta no fue generada debido a que la impresora asociada era la incorrecta.
+11;Etiqueta Faltante por Perdida;La etiqueta fue perdida por el trabajador.
+12;Etiqueta Faltante por JOB No Cargado;El JOB utilizado ya fue cambiado y se requiere ahorrar tiempo.
+13;Etiqueta Faltante por JOB No Existente;No se cuenta con los elementos necesarios para crear el JOB necesario.
+14;Etiqueta de Reemplazo;Se requiere reemplazar una etiqueta generada correctamente debido a error de colocación.
+15;Sin Razón;La razón de la impresión manual aún no fue aclarada.
